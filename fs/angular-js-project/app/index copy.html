@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dog adoption service</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="app">
+    <header>
+        <img id="header-image" src="https://www.k9ofmine.com/wp-content/uploads/2018/01/dog-pat-icon.png" alt="Logo">
+        <h1 id="page-title">Dogs available for adoption</h1>
+    </header>
+
+    <main ng-controller="DogsController">
+        <div ng-repeat="dog in dogs" class="dog">
+            <h2 class="dog_name">{{dog.name}}</h2>
+            <p class="dog_text">{{dog.description}}</p>
+            <img ng-src="{{dog.image}}" alt="Name" class="dog_photo">
+        </div>
+    </main>
+</body>
+
+</html>

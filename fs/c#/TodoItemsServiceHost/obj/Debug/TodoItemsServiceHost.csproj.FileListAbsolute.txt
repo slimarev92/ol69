@@ -1,0 +1,10 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsServiceHost.exe.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsServiceHost.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsServiceHost.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsService.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\bin\Debug\TodoItemsService.dll.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\obj\Debug\TodoItemsServiceHost.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\obj\Debug\TodoItemsServiceHost.csproj.CopyComplete
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\obj\Debug\TodoItemsServiceHost.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsServiceHost\obj\Debug\TodoItemsServiceHost.pdb

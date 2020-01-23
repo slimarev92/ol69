@@ -1,0 +1,13 @@
+size_t BARRSetBit(size_t arr, int index, int value);
+size_t BARRSetOn(size_t arr, int index);
+size_t BARRSetOff(size_t arr, int index);
+int BARRIsOn(size_t arr, int index);
+int BARRIsOff(size_t arr, int index);
+size_t BARRFlip(size_t arr, int index);
+size_t BARRRotateLeft(size_t arr, size_t amount);
+size_t BARRRotateRight(size_t arr, size_t amount);
+size_t BARRMirror(size_t arr);
+size_t BARRCountOn(size_t arr);
+size_t BARRCountOff(size_t arr);
+size_t BARRCountOnLUT(size_t arr);
+size_t BARRMirrorLUT(size_t arr);

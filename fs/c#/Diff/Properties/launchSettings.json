@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Diff": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\test\\funny1.txt C:\\test\\funny2.txt"
+    }
+  }
+}

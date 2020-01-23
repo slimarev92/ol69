@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Dog adoption service</title>
+  <meta charset="utf-8">
+
+  <link rel="icon" href="images/icon.ico" type="image/x-icon">
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-animate/angular-animate.js"></script>
+  <script src="directiveExample.js"></script>
+</head>
+
+<body ng-app="app">
+
+  <div ng-controller="Controller">
+    <input type="text" ng-model="name">
+    <sash-component name="name" name2="name" onev="onEvent(message)"></sash-component>
+  </div>
+
+</body>
+
+
+</html>

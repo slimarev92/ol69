@@ -1,0 +1,11 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\bin\Debug\netcoreapp3.0\Diff.xml
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.pdb

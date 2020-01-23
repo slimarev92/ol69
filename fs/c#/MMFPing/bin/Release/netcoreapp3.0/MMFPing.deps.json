@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MMFPing/1.0.0": {
+        "runtime": {
+          "MMFPing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MMFPing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

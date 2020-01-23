@@ -1,0 +1,11 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\bin\Debug\netcoreapp3.0\MulticastEchoClient.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\obj\Debug\netcoreapp3.0\MulticastEchoClient.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\obj\Debug\netcoreapp3.0\MulticastEchoClient.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\obj\Debug\netcoreapp3.0\MulticastEchoClient.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\obj\Debug\netcoreapp3.0\MulticastEchoClient.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MulticastEcho\obj\Debug\netcoreapp3.0\MulticastEchoClient.csprojAssemblyReference.cache

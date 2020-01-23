@@ -1,0 +1,6 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\bin\Debug\CalculatorServiceClient.exe.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\bin\Debug\CalculatorServiceClient.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\bin\Debug\CalculatorServiceClient.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\obj\Debug\CalculatorServiceClient.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\obj\Debug\CalculatorServiceClient.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceClient\obj\Debug\CalculatorServiceClient.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\bin\Debug\netcoreapp3.0\NamedPipePing.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\obj\Debug\netcoreapp3.0\NamedPipePing.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\obj\Debug\netcoreapp3.0\NamedPipePing.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\obj\Debug\netcoreapp3.0\NamedPipePing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\obj\Debug\netcoreapp3.0\NamedPipePing.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePing\obj\Debug\netcoreapp3.0\NamedPipePing.csprojAssemblyReference.cache

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XMLToText": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\slima\\source\\repos\\sasha-limarev\\c#\\WS01\\Worksheets.xml C:\\test\\output.txt"
+    }
+  }
+}

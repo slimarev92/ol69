@@ -1,0 +1,16 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.xml
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csproj.CopyComplete
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.pdb

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lan="en-US">
+
+<head>
+    <title>Tables are fun!</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" type="text/css"> 
+
+    <style>
+        .main {
+            width: 50%;
+        }
+
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        table {
+            table-layout: fixed;
+            width: 100%;
+            min-width: 450px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th,
+        td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            padding: 5px;
+        }
+
+        thead tr,
+        tfoot tr {
+            border: 1px solid black;
+            background-color: #4f84e0;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #d9e1f2;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        table caption {
+            font-weight: bolder;
+        }
+
+        col.rank {
+            width: 15%;
+        }
+
+        .rank {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Highest-grossing films of 2003</h1>
+
+    <section class="main">
+        <table>
+            <colgrouop>
+                <col class="rank">
+                <col class="content" span="3">
+            </colgrouop>
+
+            <caption>A table of 2003's highest-grossing movies (worldwide)</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Distributor</th>
+                    <th scope="col">Worldwide gross</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row" class="rank">1</td>
+                    <td>The Lord of the Rings: The Return of the King</td>
+                    <td>New Line</td>
+                    <td>$1,120,929,521</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="rank">2</td>
+                    <td>Finding Nemo</td>
+                    <td>Disney</td>
+                    <td>$867,893,973</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="rank">3</td>
+                    <td>The Matrix Reloaded</td>
+                    <td>Warner Bros.</td>
+                    <td>$742,128,461 </td>
+                </tr>
+                <tr>
+                    <td scope="row" class="rank">4</td> 
+                    <td>Pirates of the Caribbean: The Curse of the Black Pearl</td>
+                    <td>Disney</td>
+                    <td>$654,264,015 </td>
+                </tr>
+                <tr>
+                    <td scope="row" class="rank">5</td>
+                    <td>Bruce Almighty</td>
+                    <td>Universal</td>
+                    <td>$484,592,874</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="3">Total</th>
+                    <td>$3,869,808,844</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+
+</html>

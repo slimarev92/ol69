@@ -1,0 +1,6 @@
+<md-list ng-controller="ItemsController">
+    <md-list-item class="md-2-line" ng-repeat="item in getItems() | filter: {Done: false} track by $index">
+      <md-checkbox aria-label="Finished?" ng-model="item.done"></md-checkbox>
+      <div ng-class="getClasses(item)">{{item.Content}}</div>
+    </md-list-item>
+</md-list>

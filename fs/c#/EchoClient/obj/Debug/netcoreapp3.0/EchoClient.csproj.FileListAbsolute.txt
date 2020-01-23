@@ -1,0 +1,15 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.csproj.CopyComplete
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.pdb

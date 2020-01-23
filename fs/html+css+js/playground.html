@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>My playground</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap">
+    <style>
+        html {
+            font-size: 25px;
+        }
+
+        p,
+        .heading {
+            margin: 15px 10px;
+        }
+
+        body {
+            background-color: palegoldenrod;
+            background-image: url(http://ecx.images-amazon.com/images/I/41z3aiIdMWL._SY300_.jpg);
+            background-repeat: repeat;
+        }
+
+        p {
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+
+        h2+p::first-letter,
+        h1,
+        h2 {
+            font-family: "Alegreya SC", serif;
+            font-weight: bold;
+            color: chocolate;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 5px 0px 5px black;
+        }
+
+        h2+p::first-letter,
+        h2 {
+            font-size: 1.5em;
+            display: inline-block;
+        }
+
+        a {
+            color: rgb(128, 64, 18);
+            background: url("https://mdn.mozillademos.org/files/12982/external-link-52.png") no-repeat 100%;
+            background-size: 16px 16px;
+            padding-right: 20px;
+        }
+
+        a:hover,
+        a:focus {
+            background-color: rgb(185, 147, 114);
+        }
+
+        a:visited {
+            color: #d537bb;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        .heading {
+            display: inline-block;
+            padding: 10px 10px 10px 10px;
+            border: 8px solid #d59637;
+            border-radius: 50px;
+            background-color: #f8e15f;
+            margin: 15px 15px 15px 15px;
+        }
+
+        em {
+            text-decoration: #66481c underline;
+            font-style: italic;
+        }
+
+        img {
+            float: right;
+            margin: 20px 20px 20px 20px;
+            border: 2px solid #d59637;
+            max-width: 50%;
+        }
+
+        .arrow_box {
+            position: relative;
+            background: #d59637;
+            border: 4px solid #f5ca20;
+        }
+
+        .arrow_box:after,
+        .arrow_box:before {
+            bottom: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .arrow_box:after {
+            border-color: rgba(213, 150, 55, 0);
+            border-bottom-color: #d59637;
+            border-width: 30px;
+            margin-left: -30px;
+        }
+
+        .arrow_box:before {
+            border-color: rgba(245, 202, 32, 0);
+            border-bottom-color: #f5ca20;
+            border-width: 36px;
+            margin-left: -36px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Porcellino</h1>
+    <div class="arrow_box"></div>
+
+    <article>
+        <section>
+            <h2 class="heading">General Information</h2>
+
+            <p>
+                <em>Il Porcellino</em> (Italian "piglet") is the local Florentine nickname for the bronze fountain of a
+                <a href="https://en.wikipedia.org/wiki/B" title="Boar - Wikipedia">boar</a>. The
+                fountain figure was sculpted and cast by Baroque master <em>Pietro Tacca</em> (1577–1640) shortly before
+                1634,<sup>[1]</sup> following a marble Italian copy of a Hellenistic marble original, at the time in the
+                Grand Ducal collections and today on display in the classical section of the Uffizi Museum. The
+                original,
+                which was found in Rome and removed to Florence in the mid-16th century by the Medici, was associated
+                from
+                the time of its rediscovery with the Calydonian Boar of Greek myth.<sup>[2]</sup>
+            </p>
+
+            <img src="http://1.bp.blogspot.com/-OyhGTeLSLfU/U69gw35kIDI/AAAAAAAAEOA/2lulTZdY_20/s1600/porcellinoFlorence.jpg"
+                alt="A photo of Porcellino" title="Porcellino near a market" width="629" height="467">
+
+            <p>
+                Tacca's bronze, which has eclipsed the Roman marble that served as model,<sup>[3]</sup> was originally
+                intended for the Boboli Garden, then moved to the Mercato Nuovo in Florence, Italy; the fountain was
+                placed
+                originally facing east, in via Calimala, in front of the pharmacy that by association gained the name
+                Farmacia del Cinghiale (Italian for "boar"). To gain more space for market traffic it was later moved to
+                the
+                side facing south, where it still stands as one of the most popular features for tourists. The present
+                statue is a modern copy, cast in 1998 by Ferdinando Marinelli Artistic Foundry and replaced in 2008,
+                while
+                Tacca's bronze is sheltered in the new Museo Stefano Bardini in Palazzo Mozzi.<sup>[citation
+                    needed]</sup>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Porcellino_di_pietro_tacca%2C_originale_02.JPG/1280px-Porcellino_di_pietro_tacca%2C_originale_02.JPG"
+                    title="Porcellino Boar" alt="An image of the Porcelling boar" width="622" height="467">
+            </p>
+
+            <p>
+                Visitors to Il Porcellino put a coin into the boar's gaping jaws, with the intent to let it fall through
+                the
+                underlying grating for good luck, and they rub the boar's snout to ensure a return to Florence, a
+                tradition
+                that the Scottish literary traveller Tobias Smollett already noted in 1766,<sup>[4]</sup> which has kept
+                the
+                snout in a state of polished sheen while the rest of the boar's body has patinated to a dull
+                brownish-green.<sup>[citation needed]</sup>
+            </p>
+        </section>
+
+        <section>
+            <h2 class="heading">In popular Culture</h2>
+
+            <p>
+                Il Porcellino appears in the 2001 film Hannibal when Chief Inspector Rinaldo Pazzi (Giancarlo Giannini)
+                cleans his hands in the fountain.
+            </p>
+
+            <p>
+                The statue is also seen briefly in Harry Potter and the Chamber of Secrets (2002) as Harry Potter and
+                Ron
+                Weasley climb the Hogwarts staircase after crashing into the Whomping Willow, and again on the same
+                staircase during the flashback scene where Tom Riddle speaks to Albus Dumbledore. It also appears in
+                Harry
+                Potter and the Deathly Hallows: Part II (2011) in the Room of Requirement.<sup>[citation needed]</sup>
+            </p>
+
+            <p>
+                In 1962's film Light in the Piazza, starring Olivia De Havilland, George Hamilton, and Yvette Mimieux, a
+                young George Hamilton plays Fabrizio. After buying flowers for Yvette's character, Clara, he pats the
+                boars snout for luck. Citation: Light in the Piazza. Arthur Freed. MGM, February 7, 1962. Film.
+            </p>
+        </section>
+    </article>
+
+
+</body>
+
+</html>

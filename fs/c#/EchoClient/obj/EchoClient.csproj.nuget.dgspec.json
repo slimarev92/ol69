@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoClient\\EchoClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoClient\\EchoClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoClient\\EchoClient.csproj",
+        "projectName": "EchoClient",
+        "projectPath": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoClient\\EchoClient.csproj",
+        "packagesPath": "C:\\Users\\slima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\slima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\EchoServer.csproj": {
+                "projectPath": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\EchoServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\EchoServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\EchoServer.csproj",
+        "projectName": "EchoServer",
+        "projectPath": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\EchoServer.csproj",
+        "packagesPath": "C:\\Users\\slima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\slima\\source\\Repos\\sasha-limarev\\fs\\c#\\EchoServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\slima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

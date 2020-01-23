@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-animate/angular-animate.min.js"></script>
+  <script src="lib/angular-aria/angular-aria.min.js"></script>
+  <script src="lib/angular-messages/angular-messages.min.js"></script>
+  <script src="lib/angular-material/angular-material.min.js"></script>
+  <script src="lib/angular-route/angular-route.min.js"></script>
+  <script src="app.js"></script>
+
+
+  <style>
+    h1 {
+      font-family: Roboto Mono, Arial, sans-serif;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    @media (min-width: 1280px) {
+      .form {
+        max-height: 50px;
+
+      }
+    }
+
+    .input {
+      flex: none;
+    }
+
+    .done {
+      text-decoration: line-through;
+    }
+
+    md-content {
+      width: 60%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .md-2-line.ng-enter {
+      transition: 0.3s ease-in all;
+      opacity: 0;
+    }
+
+    .md-2-line.ng-enter.ng-enter-active {
+      opacity: 1;
+    }
+
+    .md-2-line.ng-leave {
+      transition: 0.3s ease-out all;
+      opacity: 1;
+    }
+
+    .md-2-line.ng-leave.ng-leave-active {
+      opacity: 0;
+    }
+  </style>
+
+</head>
+
+<body ng-app="app">
+  <md-toolbar>
+    <h1 class="md-display-2 header">TODO APP</h1>
+  </md-toolbar>
+
+  <div ng-controller="NavController">
+    <md-nav-bar md-selected-nav-item="navItem">
+      <md-nav-item md-nav-href="/all" name="/all">ALL</md-nav-item>
+      <md-nav-item md-nav-href="/todo" name="/todo">TODO</md-nav-item>
+      <md-nav-item md-nav-href="/archive" name="/archive">ARCHIVE</md-nav-item>
+    </md-nav-bar>
+  </div>
+
+  <md-content layout-padding="10">
+    <form name="itemForm" class="form" layout="column" layout-gt-md="row" ng-controller="AddItemController">
+      <md-input-container class="input">
+        <label>Your note</label>
+        <input name="itemInput" ng-model="currentItemContent" md-maxlength="30">
+        <div ng-messages="itemForm.itemInput.$error">
+          <div ng-message="md-maxlength">Item is too long</div>
+        </div>
+      </md-input-container>
+      <md-button class="md-raised md-primary" ng-disabled="itemForm.$invalid || !currentItemContent"
+        ng-click="addCurrentItem()">Add</md-button>
+    </form>
+
+    <div ng-view></div>
+  </md-content>
+</body>
+
+</html>

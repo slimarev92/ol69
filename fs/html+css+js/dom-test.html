@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax starting point</title>
+
+    <style>
+      html, pre {
+        font-family: sans-serif;
+      }
+      body {
+        width: 500px;
+        margin: 0 auto;
+        background-color: #ccc;
+      }
+      pre {
+        line-height: 1.5;
+        letter-spacing: 0.05rem;
+        padding: 1rem;
+        background-color: white;
+      }
+      label {
+        width: 200px;
+        margin-right: 33px;
+      }
+      select {
+        width: 350px;
+        padding: 5px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Limerick chooser</h1>
+
+    <form>
+      <label for="verse-choose">Choose a limerick</label>
+      <select id="verse-choose" name="verse-choose">
+        <option>Limerick 1</option>
+        <option>Limerick 2</option>
+        <option>Limerick 3</option>
+        <option>Limerick 4</option>
+      </select>
+    </form>
+
+    
+
+    <pre id="verse-content">
+
+    </pre>
+
+    <script>
+        let verseChoose = document.getElementById("verse-choose");
+        let verseContent = document.getElementById("verse-content");
+        let currentLimIndex = 1;
+
+        verseChoose.onchange = () => updateDisplay(verseChoose.value);
+
+        updateDisplay("1");
+
+        function updateDisplay(value) {
+            let newSelectionIndex = value.charAt(value.length - 1);
+
+            if(newSelectionIndex !== currentLimIndex) {
+                currentLimIndex = newSelectionIndex;
+
+                loadLimerick(currentLimIndex);
+            }
+        }
+
+        // XHR VERSION
+        /*
+        function loadLimerick(index) {
+            let limPath = `lims/lim${index}.txt`;
+
+            let request = new XMLHttpRequest();
+
+            request.open('GET', limPath);
+            request.responseType = 'text';
+
+            request.onload = () => {
+                if(request.status == 200) {
+                    verseContent.textContent = request.response;
+                } else {
+                    verseContent.textContent = 'error!';
+                }
+            };
+
+            request.send();
+        }
+        */
+
+        //FETCH VERSION
+        function loadLimerick(index) {
+            
+            let limPath = `lims/lim${index}.txt`;
+
+            let fetchRequest = fetch(limPath).then(response => {
+                verseContent.textContent = 'Error!';
+
+                if (response.ok) {
+                    response.text().then(text => verseContent.textContent = text)
+                }
+            });
+        }
+        
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.pdb

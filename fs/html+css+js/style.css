@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(147, 255, 183);
+}
+
+a:hover {
+    background-color: coral;
+}
+
+h2 + p {
+    color: blueviolet;
+}
+
+ul li em {
+    color: olive;
+}
+
+.red_class, h1, h2 {
+    color: red;
+}

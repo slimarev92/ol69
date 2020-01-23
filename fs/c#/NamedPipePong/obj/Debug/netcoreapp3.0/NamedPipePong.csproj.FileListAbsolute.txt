@@ -1,0 +1,10 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\bin\Debug\netcoreapp3.0\NamedPipePong.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\obj\Debug\netcoreapp3.0\NamedPipePong.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\obj\Debug\netcoreapp3.0\NamedPipePong.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\obj\Debug\netcoreapp3.0\NamedPipePong.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\NamedPipePong\obj\Debug\netcoreapp3.0\NamedPipePong.pdb

@@ -1,0 +1,6 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\bin\Debug\TodoItemsService.dll.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\bin\Debug\TodoItemsService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\bin\Debug\TodoItemsService.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\obj\Debug\TodoItemsService.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\obj\Debug\TodoItemsService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\TodoItemsService\obj\Debug\TodoItemsService.pdb

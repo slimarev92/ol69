@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dog adoption service</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="myDirectives.js"></script>
+    <script src="myDirectivesEample.js"></script>
+</head>
+
+<body ng-app="app">
+    <div ng-controller="NameController">
+        Current name is <span my-bind="name"></span>
+        <div button-updater on-event="func(message)"></div>
+    </div>   
+</body>
+
+</html>

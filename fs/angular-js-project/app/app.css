@@ -1,0 +1,74 @@
+header {
+     width: 100%;
+     background-color: rgb(194, 233, 202);
+     border-bottom: 2px solid black;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+ }
+
+ body {
+     background-image: url("https://static.vecteezy.com/system/resources/previews/000/235/624/non_2x/cute-soft-color-subtle-pattern-background-vector.jpg");
+ }
+
+ main {
+     width: 70%;
+     margin-top: 13vh;
+     margin-left: auto;
+     margin-right: auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(500px, 600px));
+ }
+
+#header-image {
+  max-height: 60px;
+  margin-left: 20px;
+}
+
+ #page-title {
+     font-size: 2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     flex-grow: 1;
+     text-align: center;
+ }
+
+ .dog {
+     margin: 10px 10px;
+     border-radius: 20px;
+     padding: 5px 5px;
+     box-shadow: 2px 2px 5px black;
+     font-family:Arial, Helvetica, sans-serif;
+     background: white;
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     grid-template-rows: 1fr 3.5fr;
+     grid-template-areas:
+         "dog_name dog_name"
+         "dog_text dog_photo"
+ }
+
+ .dog_name {
+     grid-area: dog_name;
+     margin: 10px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .dog_text {
+     grid-area: dog_text;
+     margin: 0 10px 10px 10px;
+     line-height: 1.25;
+ }
+
+ .dog_photo {
+     grid-area: dog_photo;
+ }
+
+ .dog img {
+     object-fit: cover;
+     max-width: 200px;
+ }

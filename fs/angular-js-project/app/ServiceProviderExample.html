@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dog adoption service</title>
+    <meta charset="utf-8">
+    
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="serviceProviderExample.js"></script>
+</head>
+
+<body ng-app="app">
+  <div ng-controller="ShowCountController">
+      <input type="button" value="Increment by {{counterService.step}}" ng-click="counterService.increment()">
+      <input type="button" value="Decrement by {{counterService.step}}" ng-click="counterService.decrement()">
+      <br>
+      Step Size <input type="number" ng-model="counterService.step">
+      <br>
+      The counter is at {{counterService.counter}}
+  </div>
+</body>
+
+</html>

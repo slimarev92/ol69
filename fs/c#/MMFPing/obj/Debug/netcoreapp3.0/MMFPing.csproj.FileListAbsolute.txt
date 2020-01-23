@@ -1,0 +1,10 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\bin\Debug\netcoreapp3.0\MMFPing.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\obj\Debug\netcoreapp3.0\MMFPing.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\obj\Debug\netcoreapp3.0\MMFPing.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\obj\Debug\netcoreapp3.0\MMFPing.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPing\obj\Debug\netcoreapp3.0\MMFPing.pdb

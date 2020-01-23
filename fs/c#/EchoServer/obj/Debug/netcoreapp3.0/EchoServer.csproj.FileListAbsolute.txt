@@ -1,0 +1,11 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.deps.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.runtimeconfig.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.runtimeconfig.dev.json
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\bin\Debug\netcoreapp3.0\EchoServer.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\obj\Debug\netcoreapp3.0\EchoServer.AssemblyInfoInputs.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\obj\Debug\netcoreapp3.0\EchoServer.AssemblyInfo.cs
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\obj\Debug\netcoreapp3.0\EchoServer.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\obj\Debug\netcoreapp3.0\EchoServer.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoServer\obj\Debug\netcoreapp3.0\EchoServer.csprojAssemblyReference.cache

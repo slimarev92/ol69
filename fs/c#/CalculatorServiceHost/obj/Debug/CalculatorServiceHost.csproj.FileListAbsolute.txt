@@ -1,0 +1,10 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\CalculatorServiceHost.exe.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\CalculatorServiceHost.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\CalculatorServiceHost.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\MyWCFService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\MyWCFService.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\bin\Debug\MyWCFService.dll.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\obj\Debug\CalculatorServiceHost.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\obj\Debug\CalculatorServiceHost.csproj.CopyComplete
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\obj\Debug\CalculatorServiceHost.exe
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\CalculatorServiceHost\obj\Debug\CalculatorServiceHost.pdb

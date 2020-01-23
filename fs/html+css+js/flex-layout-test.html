@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>Flex Layout Test</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Prociono&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            font-size: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        header {
+            width: 100%;
+            height: 15vh;
+            background-color: #d7c8fa;
+            display: flex;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            position: fixed;
+            top: 0;
+        }
+
+        #page-logo {
+            flex: 0;
+        }
+
+        #page-title {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #page-title h1 {
+            font-size: 5rem;
+            font-family: "Prociono", serif;
+        }
+
+        .content {
+            width: 95%;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 17vh;
+            border: 1px solid black;
+        }
+
+        nav {
+            background-color: #dddddd;
+            flex: 1;
+        }
+
+        main {
+            padding: 10px 30px;
+            background-color: #dddddd;
+            flex: 4;
+        }
+
+        #nav-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: start;
+            height: 100%;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        a,
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            padding-top: 20px;
+            padding-bottom: 5px;
+        }
+
+        h2::after {
+        display: block;
+        margin-top: 5px;
+        height: 2px;
+        content: " ";
+        background-color: #000000;
+        width: 98%;
+        }
+
+        p {
+            font-size: 2rem;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        #nav-menu li {
+            font-size: 2.5rem;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            margin-left: 20px;
+            list-style-type: none;
+            list-style-position: inside;
+        }
+
+        img {
+            object-fit: contain;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img id="page-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/File-Wikipedia-logo-v2-en-alt-b.svg/865px-File-Wikipedia-logo-v2-en-alt-b.svg.png"
+            alt="Wikipida - The Free Encycplopedia" title="Wikipedia Logo">
+        <div id="page-title">
+            <h1>MRT Blue Line (Flex Layout Test)</h1>
+        </div>
+    </header>
+
+    <div class="content">
+        <nav>
+            <ul id="nav-menu">
+                <li class="nav-button"><a href="#Route Alignment">Route Alignment</a></li>
+                <li class="nav-button"><a href="#History">History</a></li>
+                <li class="nav-button"><a href="#Operation">Operation</a></li>
+                <li class="nav-button"><a href="#Ridership">Ridership</a></li>
+                <li class="nav-button"><a href="#New_Rolling_stock_order">New Rolling stock order</a></li>
+                <li class="nav-button"><a href="#Major_accident_record">Major accident record</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <section id="Route_Alignment">
+                    <h2>Route Alignment</h2>
+                    <p>
+                        The MRT Blue line will run north from Tha Phra station, then turning eastwards after Bang O
+                        station into Bang Pho and Tao Poon Station in Bang Sue District, where the line dives
+                        underground afterwards. It follows the Kamphaeng Phet, Phahon Yothin and Lat Phrao Roads, then
+                        turns south following Ratchadaphisek Road, then west following Rama IV Road to Hua Lamphong
+                        station in Pathum Wan District. From Hua Lamphong terminus the line runs 5.4 km underground
+                        through Chinatown, then under the Chao Praya river to Tha Phra self interchange station where it
+                        become an elevated line. The line continues elevated, west along Phetkasem road to Bang Wa
+                        Station in Phasi Charoen District to interchange with Silom Line. It continues further along
+                        Phetkasem Road where it terminates at Lak Song in Bang Khae just a few meters away from the
+                        Western Outer Ring road Kanchanaphisek Road.
+                    </p>
+                </section>
+                <section id="History">
+                    <h2>History</h2>
+                    <p>
+                        For the Blue Line most civil infrastructure was provided by a new government agency, the Mass
+                        Rapid Transit Authority of Thailand (MRTA), and handed over to a private-sector operator for a
+                        25-year concession agreement. The winning bidder was Bangkok Metro Company Limited (BMCL),
+                        subsequently renamed Bangkok Expressway and Metro Public Company Limited (BEM). BMCL/BEM provide
+                        maintenance & engineering equipment, including electrical trains, signalling systems, SCADA,
+                        communication, platform screen doors and fully operates the system. BMCL/BEM has subcontracted
+                        maintenance of the system for 10 years to Siemens and seven-year maintenance contracts to two
+                        local maintenance services.
+                    </p>
+
+                    <p>
+                        The construction of the first Bangkok Metro line, officially known as Chaloem Ratchamongkhon
+                        (Thai สายเฉลิมรัชมงคล) – "Celebration of Royal Auspice" – or informally as the "Blue Line",
+                        began on 19 November 1996. The project suffered multiple delays not only because of the 1997
+                        economic crisis, but also due to challenging civil engineering works of constructing massive
+                        underground structures deep in the water-logged soil upon which the city is built.
+                    </p>
+
+                    <p>
+                        The Blue line was opened for a limited public trial period of several weeks starting on 13 April
+                        2004. On 3 July 2004 the line was officially opened at 19:19 local time by HM King Bhumibol and
+                        Queen Sirikit,[1] who were accompanied by other members of the royal family. Within 30 minutes
+                        of its opening, sightseers filled the system to its maximum capacity, but after the initial rush
+                        ridership settled down to around 180,000 riders daily — considerably lower than projections of
+                        over 400,000, despite fares being slashed in half from 12-38 baht to 10-15 baht per trip.
+                    </p>
+                </section>
+                <section id="Operation">
+                    <h2>Operation</h2>
+                    <p>
+                        he 30 station Blue line runs from Tao Poon to Lak Song via Phra Ram 9 and Hua Lamphong and has a carrying capacity of 40,000 people in each direction per hour. Similar to the Skytrain, the Metro uses trains supplied by Siemens that travel at up to 80 km/h. Passengers can change to the Skytrain at Si Lom, Sukhumvit, Chatuchak Park and Bang Wa stations. The metro has a large depot in Huai Khwang district, which is located between Phra Ram 9 and Thailand Cultural Centre stations. The line operates from 6am to midnight with last services departing between 11.40 to 11.45pm. 
+                    </p>
+
+                    <p>
+                        Due to safety considerations, platform screen doors are installed. Uniformed security personnel and security cameras are present at each and every platform. Currently 45 three-car metro trains, of the Siemens Modular Metro type, are used. Each metro train consists of two motor cars and a centre trailer car.[7] Passenger announcements on this line are made by journalist and news broadcaster Sarocha Pornudomsak. 
+                    </p>
+                </section>
+                <section id="Ridership">
+                    <h2>Ridership</h2>
+                    <p>
+                        After opening in 2004, initial ridership was 180,000 per day — considerably lower than projections of over 400,000. By 2016, the average daily ridership was 273,637.[8] By September 2017, BEM stated that average daily ridership had increased to 360,000 after the opening of the extension to Tao Poon.[9]
+                    </p>
+                    <p>
+                        After the opening of the extension to Lak Song on 29 September 2019, average daily ridership increased to 400,000.[10]
+                    </p>
+                </section>
+                <section id="New_Rolling_stock_order">
+                    <h2>New Rolling stock order</h2>
+                    <p>
+                        In September 2017, BEM contracted Siemens to supply 35 sets (3 cars) of Siemens Inspiro rolling stock and provide maintenance for 10 years, a contract worth 20 billion baht. The fleet will be built in the Siemens plant in Vienna. The first batch of 3 sets of the new trains were delivered by late 2018. [9] A further 6 sets were delivered by late May 2019. A second batch of 10 sets will be delivered by September 2019 and the last batch of 16 sets will be delivered by March 2020.
+                    </p>
+                </section>
+                <section id="Major_accident_record">
+                    <h2>Major accident record</h2>
+                    <p>
+                        On 17 January 2005, just after 09:15, an empty train returning to the depot collided with a peak-hour train filled with passengers at the Thailand Cultural Centre station. 140 people were hurt, most of whom sustained only minor injuries, and the entire Metro network was shut down for two weeks. 
+                    </p>
+                    <p>
+                        After initial investigations, it was found that the empty train had run into problems shortly before the accident, grinding to a halt on a curve leading to the depot. The driver applied its brake and was waiting to be towed to the maintenance centre close to Thailand Cultural Centre station. 
+                    </p>
+                    <p>
+                        rescue train was attempting to connect to the stalled train when the driver was told to release the brake while coupling had not yet been successful. It was then that the empty train began to roll backwards at a speed of ten metres per second, before smashing into the other train, which was carrying passengers. Therefore, it was believed that the incident was caused by negligence due to insufficient training of operation staff.[12] This accident also resulted in two damaged trains with heavily damaged areas limited to the two leading cars. The colliding speed was suspected to be about 60 km/h due to the appearance of damaged areas. However, one train, which was rebuilt from the repair of the minor-damaged cars, was already fitted for operation at the end of 2006 and the remaining one was still under heavy repair until mid of 2007; it was released into service in October 2007. The cost resulting from the accident might be a much higher figure than BMCL quoted, and it was expected to be at least 400 million baht, which was totally insured by a local insurance company. 
+                    </p>
+                </section>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+typedef unsigned int uint_t;
+
+uint_t Pow2(unsigned int x, int y); 
+int IsPowOfTwoLoop(unsigned int num);
+int IsPowOfTwo(uint_t num);
+int AddOne(unsigned int num);
+int HasThreeOnes(unsigned int num);
+void PrintThreeOnes(unsigned int arr[], int arr_len);
+void DisplayBits(uint_t *var_ptr);
+uint_t ByteMirrorNoLoop(uint_t num);
+uint_t ByteMirrorLoop(uint_t num);
+int AreSixAndTwoOn(uint_t num);
+int AreSixOrTwoOn(uint_t num);
+uint_t SwapThreeFive(uint_t num);
+int CountSetBitsLoop(uint_t num);
+int CountSetBits(uint_t num);
+uint_t FirstDevBySixteen(uint_t num);
+void DisplayBitsFloat(float num);
+void SwapVars(uint_t *var1, uint_t *var2);
+int GetBitCount(uint_t num);
+uint_t BitCountHamming(uint_t num);

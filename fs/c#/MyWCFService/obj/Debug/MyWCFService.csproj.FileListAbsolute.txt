@@ -1,0 +1,6 @@
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\bin\Debug\MyWCFService.dll.config
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\bin\Debug\MyWCFService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\bin\Debug\MyWCFService.pdb
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\obj\Debug\MyWCFService.csprojAssemblyReference.cache
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\obj\Debug\MyWCFService.dll
+C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MyWCFService\obj\Debug\MyWCFService.pdb

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants></DefineConstants>
+    <DocumentationFile>C:\Users\slima\source\repos\sasha-limarev\c#\WS01\Worksheets.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+</Project>
