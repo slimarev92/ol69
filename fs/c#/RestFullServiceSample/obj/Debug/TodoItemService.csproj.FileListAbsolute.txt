@@ -1,6 +1,6 @@
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\RestFullServiceSample.dll.config
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\RestFullServiceSample.dll
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\RestFullServiceSample.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\TodoItemService.dll.config
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\TodoItemService.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\TodoItemService.pdb
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\EntityFramework.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\EntityFramework.SqlServer.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\Microsoft.DotNet.PlatformAbstractions.dll
@@ -57,7 +57,7 @@ C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\System.
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\System.Text.Encodings.Web.xml
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\bin\System.Web.Http.xml
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\RestFullServiceSample.csprojAssemblyReference.cache
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\RestFullServiceSample.csproj.CopyComplete
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\RestFullServiceSample.dll
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\RestFullServiceSample.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\TodoItemService.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\TodoItemService.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\TodoItemService.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\RestFullServiceSample\obj\Debug\TodoItemService.pdb

@@ -5,5 +5,6 @@ C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\
 C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\obj\Debug\WebHttpCors.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WebHttpCors\bin\Debug\WebHttpCors.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WebHttpCors\bin\Debug\WebHttpCors.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WebHttpCors\obj\Debug\WebHttpCors.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WebHttpCors\obj\Debug\WebHttpCors.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WebHttpCors\obj\Debug\WebHttpCors.pdb
