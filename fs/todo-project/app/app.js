@@ -1,45 +1,47 @@
-(function() {
+(function () {
   'use strict'
 
   let myApp = angular.module('app', ['ngMaterial', 'ngMessages', 'ngRoute']);
 
   //CONFIG
-  myApp.config(['$mdThemingProvider',function ($mdThemingProvider) {
+  myApp.config(['$mdThemingProvider', function ($mdThemingProvider) {
     $mdThemingProvider.theme('default')
       .primaryPalette('blue')
       .accentPalette('blue');
   }]);
 
-  myApp.config(['$locationProvider', function($locationProvider) {
+  myApp.config(['$locationProvider', function ($locationProvider) {
     $locationProvider.html5Mode(true);
     $locationProvider.hashPrefix('');
   }]);
 
-  myApp.config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when("/all", {templateUrl: "all_items/template.html"});
-    $routeProvider.when("/todo", {templateUrl: "todo_items/template.html"});
-    $routeProvider.when("/archive", {templateUrl: "archive_items/template.html"});
+  myApp.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider.when("/all", {
+      templateUrl: "all_items/template.html"
+    });
+    $routeProvider.when("/todo", { templateUrl: "todo_items/template.html" });
+    $routeProvider.when("/archive", { templateUrl: "archive_items/template.html" });
 
-    $routeProvider.when("/", {redirectTo: "/all"});
+    $routeProvider.when("/", { redirectTo: "/all" });
     $routeProvider.otherwise("/all");
   }]);
 
   //SERVICES
-  myApp.factory('TodoItems', ['$window', '$http' ,function($window, $http) {
-    let itemsObj = {items: []};
+  myApp.factory('TodoItems', ['$window', '$http', function ($window, $http) {
+    let itemsObj = { items: [] };
 
     $http({
       method: 'GET',
       url: 'http://localhost:1678/Service1.svc/GetTodoItems',
     }).then(function successCallback(response) {
-        itemsObj.items = response.data;
-        console.log("got items from server")
-        console.log(response.data);
+      itemsObj.items = response.data;
+      console.log("got items from server")
+      console.log(response.data);
 
-      }, function errorCallback(response) {
-        // called asynchronously if an error occurs
-        // or server returns response with an error status.
-      });
+    }, function errorCallback(response) {
+      // called asynchronously if an error occurs
+      // or server returns response with an error status.
+    });
 
 
     itemsObj.removeItem = (item) => {
@@ -51,15 +53,15 @@
         method: 'POST',
         url: 'http://localhost:1678/Service1.svc/RemoveItems',
         'Content-Type': "text/plain",
-        data:  JSON.stringify([item])
+        data: JSON.stringify([item])
       }).then(function successCallback(response) {
-          console.log("remove success.");
-          console.log(response);
-  
-        }, function errorCallback(response) {
-          console.log("error lol");
-          console.log(response);
-        });
+        console.log("remove success.");
+        console.log(response);
+
+      }, function errorCallback(response) {
+        console.log("error lol");
+        console.log(response);
+      });
     };
 
     itemsObj.addItem = (itemContent) => {
@@ -70,19 +72,19 @@
         method: 'GET',
         url: 'http://localhost:1678/Service1.svc/RequestId',
       }).then(function successCallback(response) {
-          console.log(`got id ${response.data.id} from server.`)
-      
-          newId = response.data.id;
+        console.log(`got id ${response.data.id} from server.`)
 
-          itemsObj.items.push({Id: newId, Content: itemContent.trim(), Done: false});
-  
-          //COULD BE MUCH BETTER
-          itemsObj.sync();
+        newId = response.data.id;
 
-        }, function errorCallback(response) {
-          console.log(`ERROR: ${response}`)
-        });
-  
+        itemsObj.items.push({ Id: newId, Content: itemContent.trim(), Done: false });
+
+        //COULD BE MUCH BETTER
+        itemsObj.sync();
+
+      }, function errorCallback(response) {
+        console.log(`ERROR: ${response}`)
+      });
+
     };
 
     itemsObj.sync = () => {
@@ -93,31 +95,28 @@
       $http({
         method: 'POST',
         url: 'http://localhost:1678/Service1.svc/SetTodoItems',
-        data:  JSON.stringify(itemsObj.items)
+        data: JSON.stringify(itemsObj.items)
       }).then(function successCallback(response) {
-          console.log("sync success.");
-          console.log(response);
-  
-        }, function errorCallback(response) {
-          console.log("error lol");
-          console.log(response);
-        });
-    };
+        console.log("sync success.");
+        console.log(response);
 
-    //figure this out
-    //$window.onbeforeunload = () => itemsObj.sync();
+      }, function errorCallback(response) {
+        console.log("error lol");
+        console.log(response);
+      });
+    };
 
     return itemsObj;
   }]);
 
   //CONTROLLERS
-  myApp.controller('NavController', ['$scope', '$location', function($scope, $location) {
+  myApp.controller('NavController', ['$scope', '$location', function ($scope, $location) {
     $scope.navItem = '';
 
     $scope.$on("$routeChangeSuccess", () => $scope.navItem = $location.path());
   }]);
 
-  myApp.controller('ItemsController', ['$scope' ,'TodoItems', ($scope,TodoItems) => {
+  myApp.controller('ItemsController', ['$scope', 'TodoItems', ($scope, TodoItems) => {
     $scope.getClasses = (item) => {
       var retVal = {};
 
@@ -135,6 +134,8 @@
       TodoItems.items.splice(removeIndex, 1);
       TodoItems.removeItem(item);
     }
+
+    $scope.sync = TodoItems.sync;
   }]);
 
   myApp.controller('AddItemController', ['$scope', 'TodoItems',
@@ -143,15 +144,11 @@
       $scope.currentItemContent = '';
 
       $scope.addCurrentItem = () => {
-          //TodoItems.items.push({Id: -1, Content: $scope.currentItemContent.trim(), Done: false});
+        TodoItems.addItem($scope.currentItemContent);
 
-          TodoItems.addItem($scope.currentItemContent);
+        console.log(TodoItems.items);
 
-          console.log(TodoItems.items);
-
-          $scope.currentItemContent = '';
-          //$scope.sync();
+        $scope.currentItemContent = '';
       }
     }]);
-
 })();
