@@ -13,3 +13,18 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.csproj.CopyComplete
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoClient.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\bin\Debug\netcoreapp3.0\EchoServer.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\EchoClient\obj\Debug\netcoreapp3.0\EchoClient.pdb

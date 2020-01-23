@@ -8,3 +8,14 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Composite\obj\Debug\netcoreapp3.
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfo.cs
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.pdb

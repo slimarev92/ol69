@@ -10,3 +10,6 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\WS01\obj\Debug\netcoreapp3.0\Wor
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.pdb
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\WS01\obj\Debug\netcoreapp3.0\Worksheets.AssemblyInfo.cs

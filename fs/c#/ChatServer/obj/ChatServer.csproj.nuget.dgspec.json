@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexanderl\\Desktop\\New folder\\sasha-limarev-master\\fs\\c#\\ChatServer\\ChatServer.csproj": {}
+    "C:\\Users\\varagor\\Desktop\\full stack\\ol69\\fs\\c#\\ChatServer\\ChatServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexanderl\\Desktop\\New folder\\sasha-limarev-master\\fs\\c#\\ChatServer\\ChatServer.csproj": {
+    "C:\\Users\\varagor\\Desktop\\full stack\\ol69\\fs\\c#\\ChatServer\\ChatServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexanderl\\Desktop\\New folder\\sasha-limarev-master\\fs\\c#\\ChatServer\\ChatServer.csproj",
+        "projectUniqueName": "C:\\Users\\varagor\\Desktop\\full stack\\ol69\\fs\\c#\\ChatServer\\ChatServer.csproj",
         "projectName": "ChatServer",
-        "projectPath": "C:\\Users\\alexanderl\\Desktop\\New folder\\sasha-limarev-master\\fs\\c#\\ChatServer\\ChatServer.csproj",
-        "packagesPath": "C:\\Users\\alexanderl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexanderl\\Desktop\\New folder\\sasha-limarev-master\\fs\\c#\\ChatServer\\obj\\",
+        "projectPath": "C:\\Users\\varagor\\Desktop\\full stack\\ol69\\fs\\c#\\ChatServer\\ChatServer.csproj",
+        "packagesPath": "C:\\Users\\varagor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\varagor\\Desktop\\full stack\\ol69\\fs\\c#\\ChatServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alexanderl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\varagor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +57,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
+              "version": "[3.0.1, 3.0.1]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -70,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

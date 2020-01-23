@@ -14,3 +14,5 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csproj.CopyComplete
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfo.cs

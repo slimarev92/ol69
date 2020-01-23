@@ -8,3 +8,13 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.AssemblyInfo.cs
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\bin\Debug\netcoreapp3.0\MMFPong.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\MMFPong\obj\Debug\netcoreapp3.0\MMFPong.pdb

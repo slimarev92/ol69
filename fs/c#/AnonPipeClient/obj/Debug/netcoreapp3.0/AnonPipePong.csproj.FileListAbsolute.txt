@@ -8,3 +8,13 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeClient\obj\Debug\netcore
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.AssemblyInfo.cs
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\bin\Debug\netcoreapp3.0\AnonPipePong.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeClient\obj\Debug\netcoreapp3.0\AnonPipePong.pdb

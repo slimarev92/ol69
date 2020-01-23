@@ -1,0 +1,17 @@
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\TestApp.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\TestApp.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\EntityFramework.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\MySql.Data.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\WebHttpCors.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\WebHttpCors.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\EntityFramework.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\MySql.Data.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\obj\Debug\TestApp.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TestApp\obj\Debug\TestApp.pdb

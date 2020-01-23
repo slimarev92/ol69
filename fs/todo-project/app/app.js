@@ -28,8 +28,6 @@
   myApp.factory('TodoItems', ['$window', '$http' ,function($window, $http) {
     let itemsObj = {items: []};
 
-    delete $http.defaults.headers.common['X-Requested-With'];
-
     $http({
       method: 'GET',
       url: 'http://localhost:1678/Service1.svc/GetTodoItems',
@@ -52,6 +50,7 @@
       $http({
         method: 'POST',
         url: 'http://localhost:1678/Service1.svc/RemoveItems',
+        'Content-Type': "text/plain",
         data:  JSON.stringify([item])
       }).then(function successCallback(response) {
           console.log("remove success.");
@@ -81,8 +80,7 @@
           itemsObj.sync();
 
         }, function errorCallback(response) {
-          // called asynchronously if an error occurs
-          // or server returns response with an error status.
+          console.log(`ERROR: ${response}`)
         });
   
     };

@@ -9,3 +9,13 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\ChatServer\obj\Debug\netcoreapp3
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.pdb
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\bin\Debug\netcoreapp3.0\ChatServer.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\ChatServer\obj\Debug\netcoreapp3.0\ChatServer.pdb

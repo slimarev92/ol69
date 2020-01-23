@@ -8,3 +8,13 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\XMLToText\obj\Debug\netcoreapp3.
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.AssemblyInfo.cs
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\bin\Debug\netcoreapp3.0\XMLToText.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\XMLToText\obj\Debug\netcoreapp3.0\XMLToText.pdb

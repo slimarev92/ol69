@@ -1,0 +1,17 @@
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\TodoItemAccess.dll.config
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\TodoItemAccess.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\TodoItemAccess.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\EntityFramework.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\MySql.Data.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\EntityFramework.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\MySql.Data.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\obj\Debug\TodoItemAccess.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\obj\Debug\TodoItemAccess.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\obj\Debug\TodoItemAccess.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemAccess\obj\Debug\TodoItemAccess.pdb

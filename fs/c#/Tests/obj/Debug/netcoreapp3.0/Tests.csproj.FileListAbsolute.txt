@@ -99,3 +99,6 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Tests\obj\Debug\netcoreapp3.0\Te
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.csproj.CopyComplete
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.csprojAssemblyReference.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Tests\obj\Debug\netcoreapp3.0\Tests.AssemblyInfo.cs

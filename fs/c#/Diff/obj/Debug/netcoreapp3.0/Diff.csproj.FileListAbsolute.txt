@@ -9,3 +9,5 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Dif
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.AssemblyInfo.cs
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.AssemblyInfoInputs.cache
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Diff\obj\Debug\netcoreapp3.0\Diff.AssemblyInfo.cs
