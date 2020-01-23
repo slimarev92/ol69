@@ -1,0 +1,5 @@
+C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\bin\Debug\WebHttpCors.dll
+C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\bin\Debug\WebHttpCors.pdb
+C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\obj\Debug\WebHttpCors.dll
+C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\obj\Debug\WebHttpCors.pdb
+C:\Users\slima\Desktop\RestfulServiceSolution\RestFullServiceSample\WebHttpCors\obj\Debug\WebHttpCors.csprojAssemblyReference.cache
