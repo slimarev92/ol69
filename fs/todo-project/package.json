@@ -19,6 +19,7 @@
     "angular-http-server": "1.9.0"
   },
   "scripts": {
+    "dummy": "abcd",
     "postinstall": "npm run copy-libs",
     "update-deps": "npm update",
     "postupdate-deps": "npm run copy-libs",
