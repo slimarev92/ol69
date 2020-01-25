@@ -1,6 +1,6 @@
-<md-list ng-controller="ItemsController">
-    <md-list-item class="md-2-line" ng-repeat="item in getItems() | filter: {Done: false} track by $index">
-      <md-checkbox ng-change="sync()" aria-label="Finished?" ng-model="item.Done"></md-checkbox>
-      <div ng-class="getClasses(item)">{{item.Content}}</div>
-    </md-list-item>
+<md-list>
+  <md-list-item class="md-2-line" ng-repeat="item in $ctrl.getItems() | filter: {Done: false} track by $index">
+    <md-checkbox ng-change="$ctrl.sync()" aria-label="Finished?" ng-model="item.Done"></md-checkbox>
+    <div ng-class="$ctrl.getClasses(item)">{{item.Content}}</div>
+  </md-list-item>
 </md-list>

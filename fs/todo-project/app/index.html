@@ -15,7 +15,7 @@
   <script src="lib/angular-aria/angular-aria.min.js"></script>
   <script src="lib/angular-messages/angular-messages.min.js"></script>
   <script src="lib/angular-material/angular-material.min.js"></script>
-  <script src="lib/angular-route/angular-route.min.js"></script>
+  <script src="lib\@uirouter\angularjs\release\angular-ui-router.js"></script>
   <script src="app.js"></script>
 
 
@@ -78,9 +78,9 @@
 
   <div ng-controller="NavController">
     <md-nav-bar md-selected-nav-item="navItem">
-      <md-nav-item md-nav-href="/all" name="/all">ALL</md-nav-item>
-      <md-nav-item md-nav-href="/todo" name="/todo">TODO</md-nav-item>
-      <md-nav-item md-nav-href="/archive" name="/archive">ARCHIVE</md-nav-item>
+      <md-nav-item name="all" md-nav-sref="all">ALL</md-nav-item>
+      <md-nav-item name="todo" md-nav-sref="todo">TODO</md-nav-item>
+      <md-nav-item name="archive" md-nav-sref="archive">ARCHIVE</md-nav-item>
     </md-nav-bar>
   </div>
 
@@ -97,7 +97,7 @@
         ng-click="addCurrentItem()">Add</md-button>
     </form>
 
-    <div ng-view></div>
+    <ui-view></ui-view>
   </md-content>
 </body>
 

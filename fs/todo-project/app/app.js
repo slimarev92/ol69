@@ -1,7 +1,7 @@
 (function () {
   'use strict'
 
-  let myApp = angular.module('app', ['ngMaterial', 'ngMessages', 'ngRoute']);
+  let myApp = angular.module('app', ['ngMaterial', 'ngMessages', 'ui.router']);
 
   //CONFIG
   myApp.config(['$mdThemingProvider', function ($mdThemingProvider) {
@@ -10,21 +10,30 @@
       .accentPalette('blue');
   }]);
 
-  myApp.config(['$locationProvider', function ($locationProvider) {
-    $locationProvider.html5Mode(true);
-    $locationProvider.hashPrefix('');
+  myApp.config(['$stateProvider', ($stateProvider) => {
+    let allState = {
+      name: "all",
+      url: "/all",
+      template: '<item-list type="all"></items>'
+    }
+
+    let todoState = {
+      name: "todo",
+      url: "/todo",
+      template: '<item-list type="todo"></items>'
+    }
+
+    let archiveState = {
+      name: "archive",
+      url: "/archive",
+      template: '<item-list type="archive"></items>'
+    }
+
+    $stateProvider.state(allState);
+    $stateProvider.state(todoState);
+    $stateProvider.state(archiveState);
   }]);
 
-  myApp.config(['$routeProvider', function ($routeProvider) {
-    $routeProvider.when("/all", {
-      templateUrl: "all_items/template.html"
-    });
-    $routeProvider.when("/todo", { templateUrl: "todo_items/template.html" });
-    $routeProvider.when("/archive", { templateUrl: "archive_items/template.html" });
-
-    $routeProvider.when("/", { redirectTo: "/all" });
-    $routeProvider.otherwise("/all");
-  }]);
 
   //SERVICES
   myApp.factory('TodoItems', ['$window', '$http', function ($window, $http) {
@@ -42,7 +51,6 @@
       // called asynchronously if an error occurs
       // or server returns response with an error status.
     });
-
 
     itemsObj.removeItem = (item) => {
 
@@ -88,7 +96,6 @@
     };
 
     itemsObj.sync = () => {
-
       console.log("sending:");
       console.log(JSON.stringify(itemsObj.items));
 
@@ -109,46 +116,52 @@
     return itemsObj;
   }]);
 
+
   //CONTROLLERS
-  myApp.controller('NavController', ['$scope', '$location', function ($scope, $location) {
-    $scope.navItem = '';
-
-    $scope.$on("$routeChangeSuccess", () => $scope.navItem = $location.path());
+  myApp.controller('NavController', ['$scope', function ($scope) {
+    //fix later!
+    $scope.navItem = 'all';
   }]);
 
-  myApp.controller('ItemsController', ['$scope', 'TodoItems', ($scope, TodoItems) => {
-    $scope.getClasses = (item) => {
-      var retVal = {};
+  myApp.component('itemList', {
+    controller: ['TodoItems', function (TodoItems) {
+      this.getClasses = (item) => {
+        var retVal = {};
 
-      retVal['md-list-item-text'] = true;
-      retVal['done'] = item.done;
+        retVal['md-list-item-text'] = true;
+        retVal['done'] = item.done;
 
-      return retVal;
-    };
+        return retVal;
+      };
 
-    $scope.getItems = () => TodoItems.items;
+      this.getItems = () => TodoItems.items;
 
-    $scope.removeItem = (item) => {
-      let removeIndex = TodoItems.items.indexOf(item);
-
-      TodoItems.items.splice(removeIndex, 1);
-      TodoItems.removeItem(item);
-    }
-
-    $scope.sync = TodoItems.sync;
-  }]);
-
-  myApp.controller('AddItemController', ['$scope', 'TodoItems',
-    ($scope, TodoItems) => {
-      $scope.sync = TodoItems.sync;
-      $scope.currentItemContent = '';
-
-      $scope.addCurrentItem = () => {
-        TodoItems.addItem($scope.currentItemContent);
-
-        console.log(TodoItems.items);
-
-        $scope.currentItemContent = '';
+      this.removeItem = (itemToRemove) => {
+        TodoItems.items.splice(TodoItems.items.indexOf(itemToRemove), 1);
+        TodoItems.removeItem(itemToRemove);
       }
-    }]);
+
+      this.sync = TodoItems.sync;
+
+    }],
+    templateUrl: ['$attrs', (attrs) => { return attrs.type + "_items" + "/template.html" }
+  ]
+  });
+
+  myApp.controller('AddItemController', 
+    ['$scope',
+      'TodoItems',
+      ($scope, TodoItems) => {
+        $scope.sync = TodoItems.sync;
+        $scope.currentItemContent = '';
+
+        $scope.addCurrentItem = () => {
+          TodoItems.addItem($scope.currentItemContent);
+
+          console.log(TodoItems.items);
+
+          $scope.currentItemContent = '';
+        }
+      }
+    ]);
 })();

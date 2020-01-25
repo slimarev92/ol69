@@ -1,7 +1,9 @@
-<md-list ng-controller="ItemsController">
-    <md-list-item class="md-2-line" ng-repeat="item in getItems() | filter: {Done: true} track by $index">
-      <md-checkbox ng-change="sync()" aria-label="Finished?" ng-model="item.Done"></md-checkbox>
-      <div ng-class="getClasses(item)">{{item.Content}}</div>
-      <md-button class="md-raised" ng-click="removeItem(item)">Archive</md-button>
+<md-list>
+    <md-list-item class="md-2-line" ng-repeat="item in $ctrl.getItems() | filter: {Done: true} track by $index">
+      <md-checkbox ng-change="$ctrl.sync()" aria-label="Finished?" ng-model="item.Done"></md-checkbox>
+      <div ng-class="$ctrl.getClasses(item)">{{item.Content}}</div>
+      <md-button class="md-fab" ng-click="$ctrl.removeItem(item)">
+        <md-icon md-svg-icon="images/delete-24px.svg"></md-icon>
+      </md-button>
     </md-list-item>
 </md-list>
