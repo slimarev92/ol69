@@ -36,7 +36,7 @@
 
 
   //SERVICES
-  myApp.factory('TodoItems', ['$window', '$http', function ($window, $http) {
+  myApp.factory('todoItemsService', ['$window', '$http', function ($window, $http) {
     let itemsObj = { items: [] };
 
     $http({
@@ -117,14 +117,14 @@
   }]);
 
 
-  //CONTROLLERS
+  //CONTROLLERS + COMPONENTS
   myApp.controller('NavController', ['$scope', function ($scope) {
     //fix later!
     $scope.navItem = 'all';
   }]);
 
   myApp.component('itemList', {
-    controller: ['TodoItems', function (TodoItems) {
+    controller: ['todoItemsService', function (todoItemsService) {
       this.getClasses = (item) => {
         var retVal = {};
 
@@ -134,31 +134,33 @@
         return retVal;
       };
 
-      this.getItems = () => TodoItems.items;
+      this.todoItems = todoItemsService.items;
 
       this.removeItem = (itemToRemove) => {
-        TodoItems.items.splice(TodoItems.items.indexOf(itemToRemove), 1);
-        TodoItems.removeItem(itemToRemove);
+        todoItemsService.items.splice(todoItemsService.items.indexOf(itemToRemove), 1);
+        todoItemsService.removeItem(itemToRemove);
       }
 
-      this.sync = TodoItems.sync;
-
+      this.sync = todoItemsService.sync;
     }],
-    templateUrl: ['$attrs', (attrs) => { return attrs.type + "_items" + "/template.html" }
+    bindings: {
+      type: "@"
+    },  
+    templateUrl: ['$attrs', ($attrs) => { return $attrs.type + "_items" + "/template.html" }
   ]
   });
 
   myApp.controller('AddItemController', 
     ['$scope',
-      'TodoItems',
-      ($scope, TodoItems) => {
-        $scope.sync = TodoItems.sync;
+      'todoItemsService',
+      ($scope, todoItemsService) => {
+        $scope.sync = todoItemsService.sync;
         $scope.currentItemContent = '';
 
         $scope.addCurrentItem = () => {
-          TodoItems.addItem($scope.currentItemContent);
+          todoItemsService.addItem($scope.currentItemContent);
 
-          console.log(TodoItems.items);
+          console.log(todoItemsService.items);
 
           $scope.currentItemContent = '';
         }

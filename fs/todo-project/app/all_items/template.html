@@ -1,5 +1,5 @@
 <md-list>
-    <md-list-item class="md-2-line" ng-repeat="item in $ctrl.getItems() track by $index">
+    <md-list-item class="md-2-line" ng-repeat="item in $ctrl.todoItems track by $index">
       <md-checkbox ng-change="$ctrl.sync()" aria-label="Finished?" ng-model="item.Done"></md-checkbox>
       <div ng-class="$ctrl.getClasses(item)">{{item.Content}}</div>
     </md-list-item>
