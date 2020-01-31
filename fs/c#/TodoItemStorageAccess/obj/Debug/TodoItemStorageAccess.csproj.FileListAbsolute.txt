@@ -9,7 +9,6 @@ C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\bin\Debug\E
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\bin\Debug\MySql.Data.xml
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\obj\Debug\TodoItemStorageAccess.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\obj\Debug\TodoItemStorageAccess.csproj.CopyComplete
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\obj\Debug\TodoItemStorageAccess.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TodoItemStorageAccess\obj\Debug\TodoItemStorageAccess.pdb

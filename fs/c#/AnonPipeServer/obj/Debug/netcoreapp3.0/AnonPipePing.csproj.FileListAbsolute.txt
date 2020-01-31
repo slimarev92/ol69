@@ -14,7 +14,6 @@ C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\bin\Debug\netcorea
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.runtimeconfig.dev.json
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\bin\Debug\netcoreapp3.0\AnonPipePing.pdb
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.AssemblyInfoInputs.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.AssemblyInfo.cs
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\AnonPipeServer\obj\Debug\netcoreapp3.0\AnonPipePing.dll

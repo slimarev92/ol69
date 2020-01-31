@@ -1,0 +1,15 @@
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\TimeWatch.exe.config
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\TimeWatch.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\TimeWatch.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\AngleSharp.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\HtmlAgilityPack.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\AngleSharp.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\HtmlAgilityPack.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\obj\Debug\TimeWatch.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\obj\Debug\TimeWatch.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\obj\Debug\TimeWatch.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\TimeWatch\obj\Debug\TimeWatch.csprojAssemblyReference.cache

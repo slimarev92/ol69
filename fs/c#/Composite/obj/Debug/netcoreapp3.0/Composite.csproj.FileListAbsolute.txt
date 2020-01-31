@@ -14,7 +14,6 @@ C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.runtimeconfig.dev.json
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.dll
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\bin\Debug\netcoreapp3.0\Composite.pdb
-C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfoInputs.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.AssemblyInfo.cs
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Composite\obj\Debug\netcoreapp3.0\Composite.dll

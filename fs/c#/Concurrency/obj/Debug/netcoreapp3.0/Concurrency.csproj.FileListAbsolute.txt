@@ -14,5 +14,18 @@ C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csproj.CopyComplete
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.dll
 C:\Users\slima\source\Repos\sasha-limarev\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.exe
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.deps.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.runtimeconfig.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.runtimeconfig.dev.json
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Concurrency.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\bin\Debug\netcoreapp3.0\Worksheets.pdb
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csprojAssemblyReference.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfoInputs.cache
 C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.AssemblyInfo.cs
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.csproj.CopyComplete
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.dll
+C:\Users\varagor\Desktop\full stack\ol69\fs\c#\Concurrency\obj\Debug\netcoreapp3.0\Concurrency.pdb
