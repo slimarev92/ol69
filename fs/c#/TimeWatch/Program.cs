@@ -18,7 +18,8 @@ namespace TimeWatch
             doc.Load(sourceFile);
 
             //select table with work hours
-            var table = doc.DocumentNode.SelectNodes("//table").ToList()[2];
+            var table =
+                doc.DocumentNode.SelectNodes("//table").ToList()[2];
             var tableBody = doc.DocumentNode.SelectNodes("//tbody").ToList()[2];
 
             tableBody.SetAttributeValue("id", "main-table");
