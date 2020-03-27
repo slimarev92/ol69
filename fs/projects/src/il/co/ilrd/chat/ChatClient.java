@@ -45,10 +45,6 @@ public class ChatClient {
 				continue;
 			}
 			
-			for (int i = 0; i < 100; i++) {
-				System.out.println("hello!");
-			}
-			
 			try {
 				serverSocket = new Socket(InetAddress.getByName(IPPort[0]), Integer.parseInt(IPPort[1]));	
 			} catch(Exception e) { UI.displayMessage("Connection Error. Enter IP and port again"); continue;} 
