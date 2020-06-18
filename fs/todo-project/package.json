@@ -5,7 +5,7 @@
   "description": "A simple todo app",
   "repository": "https://github.com/slimarev92/ol69",
   "dependencies": {
-    "angular": "^1.7.5",
+    "angular": "^1.8.0",
     "angular-loader": "^1.7.5",
     "angular-animate": "1.7.9",
     "angular-aria": "1.7.9",
